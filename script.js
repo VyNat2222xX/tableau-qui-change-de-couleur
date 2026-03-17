@@ -1,3 +1,5 @@
+/* QUERRY SELECTORS */
+
 const $tile1 = document.querySelector("#btn1");
 const $tile2 = document.querySelector("#btn2");
 const $tile3 = document.querySelector("#btn3");
@@ -7,6 +9,8 @@ const $tile6 = document.querySelector("#btn6");
 const $tile7 = document.querySelector("#btn7");
 const $tile8 = document.querySelector("#btn8");
 const $tile9 = document.querySelector("#btn9");
+
+/* CLICK GAUCHE */
 
 $tile1.addEventListener("click", () => {
 	$tile1.classList.remove("green");
@@ -52,6 +56,8 @@ $tile9.addEventListener("click", () => {
 	$tile9.classList.remove("green");
 	$tile9.classList.add("red");
 });
+
+/* CLICK DROIT */
 
 $tile1.addEventListener("contextmenu", (e) => {
 	e.preventDefault();
